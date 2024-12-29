@@ -6,6 +6,7 @@ namespace MyWebApplication
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
+            builder.Services.AddScoped<IDatabaseConnection, DBConnection>();
             var app = builder.Build();
 
 
