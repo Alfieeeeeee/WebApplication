@@ -4,10 +4,10 @@ namespace MyWebApplication.Services.Interfaces
 {
     public interface IProductService
     {
-        public IEnumerable<Product> GetAllProducts();
-        public Product GetProductById(int id);
-        public Product CreateProduct(Product product);
-        public bool UpdateProduct(Product product);
-        public bool DeleteProduct(int id);
+        IEnumerable<Product> GetAllProducts();
+        Product GetProductById(int id);
+        Product CreateProduct(Product product);
+        bool UpdateProduct(Product product);
+        bool DeleteProduct(int id);
     }
 }
