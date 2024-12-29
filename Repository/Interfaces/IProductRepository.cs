@@ -1,6 +1,6 @@
 ﻿namespace MyWebApplication.Repository.Interfaces
 {
-    public class IProductRepository
+    public interface IProductRepository
     {
     }
 }
